@@ -1,37 +1,101 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>IT Supervisor Readiness Portfolio</title>
-  <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8" />
+  <title>IT Supervisor Readiness Portfolio — Chid Vishal Mungara</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="css/style.css" />
+  <style>
+    /* Optional quick styles in case style.css is minimal */
+    body { font-family: Arial, sans-serif; margin: 0; line-height: 1.5; }
+    header, nav, footer { background:#222; color:#fff; padding:16px; }
+    nav ul { list-style:none; margin:0; padding:0; display:flex; flex-wrap:wrap; gap:12px; }
+    nav a { color:#fff; text-decoration:none; }
+    main { padding:20px; max-width: 1000px; margin: 0 auto; }
+    .hero { display:flex; gap:24px; align-items:center; flex-wrap:wrap; }
+    .hero img { width:160px; height:160px; object-fit:cover; border-radius:50%; border:3px solid #eee; }
+    .card { background:#f7f7f7; padding:16px; border-radius:10px; margin-top:16px; }
+    h2 { margin-top:28px; }
+    .pill { display:inline-block; background:#e9eefc; color:#213a8f; padding:4px 10px; border-radius:999px; margin-right:8px; }
+  </style>
 </head>
 <body>
   <header>
-    <h1>Welcome to My IT Supervisor Readiness Portfolio</h1>
+    <h1>IT Supervisor Readiness Portfolio</h1>
     <p><strong>Name:</strong> Chid Vishal Mungara</p>
-    <p><strong>Vision:</strong> Inclusive, data-driven IT leadership with a people-first mindset.</p>
   </header>
 
-<nav>
-  <ul>
-    <!-- Existing sections -->
-    <li><a href="kpi-budget/kpi-dashboard.html">KPI Dashboard</a></li>
-    <li><a href="kpi-budget/mini-budget.html">Mini Budget Plan</a></li>
-    <li><a href="kpi-budget/summary-report.html">Monthly Summary Report</a></li>
-    <li><a href="customer-toolkit/service-statement.html">Customer Service Statement</a></li>
-    <li><a href="customer-toolkit/escalation-flowchart.html">Escalation Flowchart</a></li>
-    <li><a href="customer-toolkit/ticket-response.html">Ticket Response</a></li>
-    <li><a href="customer-toolkit/incident-template.html">Incident Report Template</a></li>
-    <li><a href="Ethics, Systems & Culture./ethics.html">Ethics, Systems & Culture</a></li>
+  <nav>
+    <ul>
+      <!-- on-page anchors -->
+      <li><a href="#home">Home</a></li>
+      <li><a href="#mission">Mission</a></li>
+      <li><a href="#values">Values</a></li>
+      <li><a href="#goals">Goals</a></li>
+      <!-- external pages -->
+      <li><a href="gantt/gantt.html">Gantt Chart (15-Week Timeline)</a></li>
+      <li><a href="Contact/contact.html">Contact & Résumé</a></li>
+    </ul>
+  </nav>
 
+  <main>
+    <!-- HOME / HEADSHOT -->
+    <section id="home" class="card">
+      <div class="hero">
+        <!-- Replace headshot.jpg with your real file in /img/ -->
+        <img src="img/headshot.jpg" alt="Headshot of Chid Vishal Mungara" />
+        <div>
+          <h2>Welcome</h2>
+          <p><strong>Vision:</strong> Inclusive, data-driven IT leadership with a people-first mindset.</p>
+          <p>I lead with transparency, measurable results, and coaching that helps teams thrive.</p>
+        </div>
+      </div>
+    </section>
 
-    <!-- 👇 New Section -->
-    <li><a href="team-tools/team-tools.html">Team Leadership & HR Tools</a></li>
-  </ul>
-</nav>
+    <!-- MISSION -->
+    <section id="mission">
+      <h2>Mission</h2>
+      <p>
+        Deliver reliable, scalable IT services while building a culture of clarity,
+        accountability, and continuous improvement. Align technology outcomes with business goals.
+      </p>
+    </section>
 
+    <!-- VALUES -->
+    <section id="values" class="card">
+      <h2>Values</h2>
+      <p>
+        <span class="pill">Transparency</span>
+        <span class="pill">Accountability</span>
+        <span class="pill">Respect</span>
+        <span class="pill">Data Privacy</span>
+        <span class="pill">Non‑Discrimination</span>
+      </p>
+      <p>I promote open communication, fair processes, and ethical decision-making across the team.</p>
+    </section>
+
+    <!-- GOALS -->
+    <section id="goals">
+      <h2>Goals</h2>
+      <ul>
+        <li>Improve average ticket resolution time while maintaining CSAT above target.</li>
+        <li>Build coaching playbooks and onboarding that shorten time-to-productivity.</li>
+        <li>Strengthen KPI reporting and budgeting for clearer decisions.</li>
+        <li>Model ethical leadership and cultural adaptability in U.S. workplaces.</li>
+      </ul>
+    </section>
+
+    <!-- QUICK LINKS (optional) -->
+    <section class="card">
+      <h2>Quick Links</h2>
+      <ul>
+        <li><a href="kpi-budget/kpi-dashboard.html">KPI Dashboard</a> • <a href="kpi-budget/mini-budget.html">Mini Budget</a> • <a href="kpi-budget/summary-report.html">Monthly Summary</a></li>
+        <li><a href="customer-toolkit/service-statement.html">Customer Service Statement</a> • <a href="customer-toolkit/escalation-flowchart.html">Escalation Flowchart</a> • <a href="customer-toolkit/ticket-response.html">Ticket Response</a> • <a href="customer-toolkit/incident-template.html">Incident Template</a></li>
+        <li><a href="team-tools/team-tools.html">Team Leadership & HR Tools</a></li>
+        <li><a href="Ethics, Systems & Culture./ethics.html">Ethics, Systems & Culture</a></li>
+      </ul>
+    </section>
+  </main>
 
   <footer>
     <p>Hosted with ❤️ on GitHub Pages</p>
